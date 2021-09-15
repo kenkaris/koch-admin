@@ -1,0 +1,79 @@
+.site-form-in-drawer-wrapper {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px 16px;
+  border-top: 1px solid #e9e9e9;
+  background: #fff;
+  text-align: right;
+}
+
+[data-theme="dark"] .site-form-in-drawer-wrapper {
+  border-top: 1px solid #303030;
+  background: #1f1f1f;
+}
+.search:focus {
+ width: 160;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  border-radius: 10px;
+}
+ 
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius:10px;
+ 
+}
+.react-player video {
+
+  border-radius:10px;
+ 
+}
+.react-player  :focus :active{
+
+  border-radius:10px;
+ 
+}
+
+.react-player video :focus :active {
+
+ border: none;
+ 
+}
+.menu-item {
+  user-select: none;
+  cursor: pointer;
+  border: none;
+}
+.menu-item-wrapper.active {
+  border: none;
+}
+.menu-item.active {
+  border: none;
+}
+
+.scroll-menu-arrow {
+  cursor: pointer;
+}
+.ant-modal-header {
+  background:  rgba(24 144 255 / 49%) !important;
+}
+.ant-drawer-header{
+  background: #40a9ff !important;
+}
+.ant-drawer-body{
+  background:#8497a266;
+}
+#search::placeholder{
+  font-size: 10 !important;
+}
+
+.site-layout-sub-header-background{
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+
+}
